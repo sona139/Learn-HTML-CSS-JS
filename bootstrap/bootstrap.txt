@@ -1,0 +1,10 @@
+col: pc-12, tablet-8, mobile-4
+glutter (kc ben trai va phai cua cot) pc-24px, mobile-16px
+margin
+
+fluid: tràn ra 2 bên
+ms: margin-left
+ms-auto: margin-left: auto đẩy phần tử ra ngoài cùng bên phải
+bg: background
+navbar-... = bg... (navbar-dark bg-dark), navbar-... ket hop voi navbar-brand doi color
+padding: pt-, pr-, pb-, pf-, px-, py-, p-12345

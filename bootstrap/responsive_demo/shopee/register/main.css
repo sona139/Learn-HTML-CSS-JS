@@ -1,0 +1,109 @@
+.header {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-register {
+	font-size: 2.4rem;
+}
+
+.header-help {
+	font-size: 1.4rem;
+	color: var(--primary-color);
+}
+
+.modal .main-container .main-form {
+	height: 70%;
+}
+
+.form-header {
+	font-size: 2rem;
+	padding: 10px 0;
+}
+
+.form-register {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-register::after {
+	content: 'HOẶC';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 1.3rem;
+	color: #ccc;
+	background-color: #fff;
+	padding: 0 10px;
+}
+
+#username {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 10px;
+	font-size: 1.4rem;
+	margin: 16px 0;
+	border-radius: 2px;
+}
+
+#username:focus {
+	border-color: #333;
+}
+
+button.next {
+	background-color: var(--primary-color);
+	width: 100%;
+	padding: 10px 0;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 1.6rem;
+	margin: 16px 0;
+}
+
+button.next:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.other-register {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.other-register--item {
+	width: 48%;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+	font-size: 1.4rem;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+
+.form-footer {
+	text-align: center;
+	font-size: 1.2rem;
+	margin: 25px 0;
+}
+
+.rules {
+	margin-bottom: 25px;
+}
+
+.rules a {
+	color: var(--primary-color);
+}
+
+.form-footer span {
+	font-size: 1.4rem;
+	color: #ccc;
+}
+
+.form-footer span a {
+	color: var(--primary-color);
+}

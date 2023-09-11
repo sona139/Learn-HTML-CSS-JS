@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<title>Document</title>
+	<style>
+		a, button {
+			text-decoration: none;
+			background: linear-gradient(to right, #c3e732, #72d439);
+			color: #fff;
+			width: 100px;
+			line-height: 50px;
+			text-align: center;
+			border-radius: 5px;
+			border: 1px #999 solid;
+			display: inline-block;
+		}
+
+		a:hover, button:hover {
+			opacity: 0.8;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="root"></div>
+	<script type="text/babel" >
+		function Button({data, children}) {
+			return (
+				<ul>
+					{data.map(children)}
+				</ul>
+			)
+		}
+
+		function App() {
+			const cars = ['Honda', 'Mazda', 'BMW']
+
+			return (
+				<div id="wrapper">
+					<Button data={cars}>
+						{(item) => <li key={item}>{item}</li>}
+					</Button>
+				</div>
+			)
+		}
+
+		ReactDOM.createRoot(document.querySelector('.root')).render(<App />)
+	</script>
+</body>
+</html>

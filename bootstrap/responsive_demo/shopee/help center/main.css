@@ -1,0 +1,240 @@
+.wide {
+	width: 1000px;
+}
+
+/* navbar */
+.nav-container {
+	position: fixed;
+}
+
+.navbar {
+	padding: 16px 0;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+}
+
+.nav-item {
+	padding: 0 10px;
+}
+
+.nav-image {
+	width: 130px;
+	height: 35px;
+	cursor: pointer;
+}
+
+.nav-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.nav-header {
+	font-weight: 400;
+	color: var(--primary-color);
+	font-size: 1.8rem;
+	transform: translateY(5px);
+	border-left: 1px solid var(--primary-color);
+}
+
+.nav-policy {
+	margin-left: auto;
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+/* header */
+.header {
+	background-color: var(--primary-color);
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.header-head {
+	padding: 60px 0 40px;
+	font-size: 3.4rem;
+	color: #fff;
+}
+
+.header-search {
+	margin: 0 auto;
+	width: 750px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+}
+
+#header-search-input {
+	flex: 1;
+	font-size: 2rem;
+	padding: 0 20px;
+}
+
+.bnt-search {
+	width: 75px;
+	height: 55px;
+	border-radius: 5px;
+	background-color: var(--primary-color);
+	color: #fff;
+	font-size: 2rem;
+	margin: 1px 2px;
+	cursor: pointer;
+}
+
+.bnt-search:hover {
+	opacity: 0.9	;
+}
+
+/* category */
+.category {
+	padding: 40px 0;
+}
+
+.main-header {
+	font-size: 2.5rem;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.category-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -4px;
+}
+
+.category-item {
+	font-size: 1.6rem;
+	margin: 0 4px;
+	border: 1px solid #ddd;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+	width: 23.5%;
+	cursor: pointer;
+}
+
+.item-image {
+	display: flex;
+	align-items: center;
+}
+
+.category-icon {
+	padding-left: 20px;
+}
+
+.item-name {
+	line-height: 2rem;
+}
+
+/* question */
+.question-header {
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	border-bottom: dashed 1px #ccc;
+}
+
+.question-item {
+	padding: 24px 0 16px 16px;
+	font-size: 1.8rem;
+	border-bottom: dashed 1px #ccc;
+	cursor: pointer;
+}
+
+/* contact */
+.contact-container {
+	background-color: rgba(0, 0, 0, 0.04);
+}
+
+.contact {
+	width: 700px;
+	margin: 0 auto;
+	padding: 40px 0 35px;
+}
+
+.contact-header {
+	margin-bottom: 30px;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.contact-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-item {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 10px;
+	margin: 0 8px;
+	width: 270px;
+	color: #333;
+	border-radius: 5px;
+}
+
+.contact-icon {
+	font-size: 2rem;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	padding: 8px;
+}
+
+.contact-content {
+	margin-left: 12px;
+}
+
+.contact-content--header {
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+
+.contact-content--info {
+	color: #999;
+	font-size: 1.2rem;
+}
+
+.contact-email {
+	cursor: pointer;
+}
+
+.contact-email:hover {
+	background-color: #ddd;
+}
+
+.footer {
+	color: #666;
+	font-size: 1.2rem;
+	padding: 30px 0;
+}
+
+.footer-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-item {
+	display: flex;
+	align-items: center;
+	padding: 0 8px;
+}
+
+.footer-item::after {
+	content: '';
+	position: relative;
+	height: 18px;
+	border-right: 1px solid #999;
+	padding-left: 10px;
+}
+
+.footer-icon {
+	font-size: 2.6rem;
+	width: 100px;
+	text-align: center;
+}
